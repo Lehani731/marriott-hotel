@@ -1,12 +1,3 @@
-       /*Google Fonts 'Oswald' hosted locally and embedded in CSS*/
-        @font-face {
-            font-family: "Oswald";
-            src: url('Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
-            font-optical-sizing: auto;
-            font-weight: 100;
-            font-style: normal;
-        }
-
         body{
             margin: 0;
             background-color: #eaeaea;
@@ -133,7 +124,7 @@
             background-color: white;
             padding: 5vh 5vw;
             overflow: hidden;
-            font-family: 'Oswald', sans-serif; /*Google Fonts 'Oswald' hosted locally and embedded in CSS*/
+            font-family: 'Oswald', sans-serif; /*Google Fonts 'Oswald' hosted online and embedded in HTML*/
         }
         .images div:first-child{
             flex-direction: column;
