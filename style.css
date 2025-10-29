@@ -124,7 +124,7 @@ header{
     background-color: white;
     padding: 5vh 5vw;
     overflow: hidden;
-    font-family: 'Oswald', sans-serif; /*Google Fonts 'Oswald' hosted online and embedded in HTML*/
+    font-family: 'Oswald', sans-serif; /*Google Fonts 'Oswald' hosted online and embedded in CSS*/
 }
 .images div:first-child{
     flex-direction: column;
@@ -165,7 +165,7 @@ header{
     height: 40vh;
 }
 .bottom-left{
-    background-image: url(images/more-img-2png.png);
+    background-image: url(images/more-img-2.png);
 }
 .bottom-right-top{
     background-image: url(images/more-img-5.png);  
@@ -268,10 +268,19 @@ header{
     font-weight: bold;
     margin:0 10px;
 }
-.footer-icons i, .footer-info a:last-child i{
+.footer-icons i, .footer-info a:last-child i {
     color: brown;
     cursor: pointer;
     margin-bottom: 20px;
+}
+.footer-info a:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-info a:last-child i {
+    margin-bottom: 0;
+    margin-left: 5px;
 }
 .footer-icons i:hover, .footer-info a:last-child i:hover{
     color: #e21010;
